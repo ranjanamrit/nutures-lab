@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowRight, faSearch, faTrash, faHome,faUserFriends,faCreditCard,faStar, faCaretDown} from '@fortawesome/free-solid-svg-icons'
 import axios from "axios"
 
-export default function index() {
+export default function Index() {
   const [data, setdata] = useState([])
   useEffect(()=>{
     const getData = async () => {
