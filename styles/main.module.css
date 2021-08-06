@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+.item1{
+    flex-grow: 1.5;
+}
+.item1 h2{
+    display: inline;
+    margin-bottom: 0;
+    position: absolute;
+    top: -0.5rem;
+    font-size: 2rem;
+    font-weight: 300;
+    color: #3F0E40;
+}
+.item1 h2 span{
+    font-weight: 400;
+}
+.item1 .logo{
+    margin: 0 0.5rem 0 1rem;
+}
+.item2{
+    flex-grow: 6;
+    background-color: rgba(63, 14, 64, 1);
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.item2 h2{
+    margin: 1.46rem;
+    margin-left: 2rem;
+    color: #ffffff;
+    font-weight: 500;
+    padding-top: 0.29rem;
+    font-size: 1.5rem;
+}
+.item2 .search{
+    margin-right: 2rem;
+    display: inline;
+}
+.item2 .search input{
+    width: 347.5px;
+    height: 37.56px;
+    border:1px solid #ffffff;
+    border-radius: 10px 0 0 10px;
+    outline: none;
+}
+.item2 .search .btn{
+    position: relative;
+    top: -0.5px;
+    left: -0.1rem;
+    height: 37.6px;
+    border: 1px solid #ffffff;
+    background: #ffffff;
+    font-size: 12px;
+    text-transform: uppercase;
+    color:rgba(63, 14, 64, 1);
+    border-radius: 0 10px 10px 0;
+    cursor: pointer;
+}
+.item2 .search .ellipse{
+    display: inline-block;
+    background-color: #ffffff;
+    margin:0 1rem;
+    padding: 0.5rem 0.8rem;
+    border-radius: 50%;
+    color:rgba(63, 14, 64, 1);
+    font-weight: 400;
+}
+.main{
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+}
+.main .list{
+    flex: 1;
+}
+.main .list ul{
+    list-style: none;
+    line-height: 3rem;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main .list ul li{
+    display: block;
+    width: 100%;
+    margin-bottom: 0.5rem;
+    
+}
+.main .list ul li .listIcons{
+    opacity: 0.5;
+    margin: 0 3rem 0 2rem;
+    font-size: 1.2rem;
+}
+.main .list ul .settings{
+    font-size: 1.3rem;
+}
+.main .list ul .settings .dropdown{
+    opacity: 0.5;
+    margin-left: 6rem;
+}
+.main .list ul p{
+    margin-left: 3rem;
+    font-size: 1rem;
+}
+.main .mainpage{
+    flex: 5.3;
+    background-color: #f8f8f8;
+}
+.main .mainpage .big{
+    display: flex;
+}
+.main .mainpage .big .intro h5{
+    display: inline-block;
+    color: rgba(0, 0, 0, 1);
+    font-size: 20px;
+    margin: 5rem 2rem 0 3rem;
+    font-weight: 500;
+}
+.main .mainpage .big .intro p{
+    display: inline-block;
+    margin-right: 3rem;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.main .mainpage .big .intro p span{
+    background-color: #3F0E40;
+    color: #ffffff;
+    padding: 0.3rem 1.2rem;
+}
+.main .mainpage .big button{
+    flex: 1;
+    align-self: flex-end;
+    max-height: 2rem;
+    margin-bottom: 1rem;
+    margin-left: 42rem;
+    justify-self: flex-end;
+    background-color: #f8f8f8;
+    font-weight: 500;
+    font-size: 17px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.main .mainpage .mainInput{
+    display: block;
+    margin: 1rem 1rem 3rem 3rem;
+    padding: 0.5rem;
+    background-color: #ffffff;
+    width: 90%;
+}
+.main .mainpage .mainInput .searchIcon{
+    opacity: 0.5;
+    margin: 0 1rem;
+    size:1rem;
+}
+
+.main .mainpage .mainInput input{
+    width: 85%;
+    height: 2rem;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    color: #000000;
+    font-weight: 400;
+}
+.main .mainpage .mainInput button{
+    border: none;
+    background-color: #3F0E40;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 0.8rem 1.3rem;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 15px;
+}
+.main .mainpage .data{
+    display: flex;
+}
+.main .mainpage .data .terms{
+    flex: 1;
+    margin-left: 3rem;
+    font-weight: 500;
+    font-size: 1.4rem;
+    align-self: flex-end;
+}
+.main .mainpage .data .refresh{
+    flex: 1;
+    margin-left: 47rem;
+    font-size: 1rem;
+    font-weight: 400;
+    align-self: flex-end;
+}
+.main .mainpage .table table {
+    margin-left: 3rem;
+    text-align: center;
+    width: 90%;
+    box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px rgba(0, 0, 0, 0.14), 0px 1px 5px rgba(0, 0, 0, 0.12);
+    height: 316px;
+    padding-top: 1rem;
+    border-collapse: collapse ;
+
+}
+.main .mainpage .table table th,.table table tbody tr td{
+    border-bottom: 1px solid #ddd;
+    padding: 1rem;
+}
+.main .mainpage .table table th{
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+.main .mainpage .table .keyword{
+    width: 15%;
+    text-align: left;
+    padding-left: 3rem;
+}
+.main .mainpage .table .tableSearch{
+    opacity: 0.5;
+    padding-right: 3rem;
+}
+.main .mainpage .btnDiv{
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 2rem;
+}
+.main .mainpage .btnDiv .viewResult{
+    border: none;
+    background-color: #3F0E40;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 0.8rem 1.3rem;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 15px;
+}
