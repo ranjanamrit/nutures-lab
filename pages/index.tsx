@@ -46,7 +46,7 @@ export default function Index() {
         <div className={styles.mainpage}>
         <div className={styles.big}>
           <div className={styles.intro}>
-            <h5>Add another keyword</h5>
+            <h5>Add Another keyword</h5>
             <p><span>1/3</span></p>
             <p>Upgrade</p>
           </div>
