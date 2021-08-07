@@ -6,14 +6,14 @@
     font-family: 'Poppins', sans-serif;
 }
 .item1{
-    flex-grow: 2;
+    flex-grow: 2.5;
 }
 .item1 h2{
     display: inline;
     margin-bottom: 0;
     position: absolute;
-    top: 5px;
-    font-size: 1.5rem;
+    top: 10px;
+    font-size: 1.3rem;
     font-weight: 300;
     color: #3F0E40;
 }
@@ -37,7 +37,7 @@
     color: #ffffff;
     font-weight: 500;
     padding-top: 0.29rem;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 .item2 .search{
     margin-right: 2rem;
@@ -52,7 +52,7 @@
 }
 .item2 .search .btn{
     position: relative;
-    top: 0.5px;
+    top: -0.6px;
     left: -0.3rem;
     height: 37.6px;
     border: 1px solid #ffffff;
@@ -77,7 +77,7 @@
     font-family: 'Poppins', sans-serif;
 }
 .main .list{
-    flex: 1.1;
+    flex: 1.16;
 }
 .main .list ul{
     list-style: none;
@@ -90,15 +90,15 @@
     display: block;
     width: 100%;
     margin-bottom: 0.5rem;
-    
+    font-size: 0.8rem;
 }
 .main .list ul li .listIcons{
     opacity: 0.5;
     margin: 0 2.5rem 0 1.5rem;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 .main .list ul .settings{
-    font-size: 1.3rem;
+    font-size: 1rem;
 }
 .main .list ul .settings .dropdown{
     opacity: 0.5;
@@ -106,7 +106,7 @@
 }
 .main .list ul p{
     margin-left: 3rem;
-    font-size: 1rem;
+    font-size: 0.7rem;
 }
 .main .mainpage{
     flex: 5.3;
@@ -120,7 +120,7 @@
 .main .mainpage .big .intro h5{
     display: inline-block;
     color: rgba(0, 0, 0, 1);
-    font-size: 18px;
+    font-size: 15px;
     margin: 5rem 2rem 0 3rem;
     font-weight: 500;
 }
@@ -129,6 +129,7 @@
     margin-right: 3rem;
     text-transform: uppercase;
     font-weight: 500;
+    font-size: 0.8rem;
 }
 .main .mainpage .big .intro p span{
     background-color: #3F0E40;
@@ -140,11 +141,11 @@
     align-self: flex-end;
     max-height: 2rem;
     margin-bottom: 1rem;
-    margin-left: 25rem;
+    margin-left: 22rem;
     justify-self: flex-end;
     background-color: #f8f8f8;
     font-weight: 500;
-    font-size: 17px;
+    font-size: 14px;
     outline: none;
     border: none;
     cursor: pointer;
@@ -152,22 +153,22 @@
 .main .mainpage .mainInput{
     display: block;
     margin: 1rem 1rem 3rem 3rem;
-    padding: 0.5rem;
+    padding: 0.4rem;
     background-color: #ffffff;
     width: 90%;
 }
 .main .mainpage .mainInput .searchIcon{
     opacity: 0.5;
     margin: 0 1rem;
-    size:1rem;
+    font-size:0.8rem;
 }
 
 .main .mainpage .mainInput input{
-    width: 80%;
+    width: 81%;
     height: 2rem;
     border: none;
     outline: none;
-    font-size: 1rem;
+    font-size: 0.8rem;
     color: #000000;
     font-weight: 400;
 }
@@ -180,7 +181,7 @@
     border-radius: 10px;
     cursor: pointer;
     font-weight: 500;
-    font-size: 15px;
+    font-size: 12px;
 }
 .main .mainpage .data{
     display: flex;
@@ -189,13 +190,13 @@
     flex: 1;
     margin-left: 3rem;
     font-weight: 500;
-    font-size: 1.2rem;
+    font-size: 1rem;
     align-self: flex-end;
 }
 .main .mainpage .data .refresh{
     flex: 1;
-    margin-left: 30rem;
-    font-size: 1rem;
+    margin-left: 31rem;
+    font-size: 0.7rem;
     font-weight: 400;
     align-self: flex-end;
 }
@@ -211,11 +212,12 @@
 }
 .main .mainpage .table table th,.table table tbody tr td{
     border-bottom: 1px solid #ddd;
-    padding: 1rem;
+    padding: 0.6rem;
+    font-size: 0.7rem;
 }
 .main .mainpage .table table th{
     font-weight: 500;
-    font-size: 1.2rem;
+    font-size: 0.8rem;
 }
 .main .mainpage .table .keyword{
     width: 15%;
@@ -224,7 +226,7 @@
 }
 .main .mainpage .table .tableSearch{
     opacity: 0.5;
-    padding-right: 3rem;
+    padding-right: 1rem;
 }
 .main .mainpage .btnDiv{
     display: block;
@@ -241,6 +243,6 @@
     border-radius: 10px;
     cursor: pointer;
     font-weight: 500;
-    font-size: 15px;
-    margin-bottom: 2rem;
+    font-size: 12px;
+    margin-bottom: 5rem;
 }
